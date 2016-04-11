@@ -13,7 +13,7 @@ public class PlayerNetworkSetup : NetworkBehaviour
         if (isLocalPlayer)
         {
             // disable scene camera
-            GameObject camera = GameObject.Find("Scene Camera");
+            GameObject camera = Camera.main.gameObject;
 
             if (camera)
             {
