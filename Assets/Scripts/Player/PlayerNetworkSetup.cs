@@ -27,9 +27,9 @@ public class PlayerNetworkSetup : NetworkBehaviour
 
             fpsCamera.enabled = true;
             audioListener.enabled = true;
-
-            // set player name
-            gameObject.name = "Player " + netId;
         }
+
+        // set player name
+        gameObject.name = "Player " + netId;
     }
 }
